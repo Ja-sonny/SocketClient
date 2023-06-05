@@ -21,7 +21,7 @@ public class SocketClient {
       } else if (args.length >= 3) {
         String echo = "";
         for (int i = 2; i < args.length; i++) {
-          echo += args[i];
+          echo += (args[i] + " ");
         }
         System.out.println(echo);
       }
